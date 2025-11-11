@@ -1,0 +1,42 @@
+py -3.10 -m venv venv
+.\venv\Scripts\activate
+
+
+pip install mediapipe
+pip install opencv-python
+pip install tensorflow
+pip install numpy
+
+
+
+pip install opencv-python
+pip install onnxruntime-directml
+pip install insightface
+
+
+
+
+
+
+
+
+# Core libraries
+opencv-python
+numpy
+insightface
+
+# -----------------------------------------------------------
+# CHOOSE ONE ONNX RUNTIME for your target PC's hardware
+# -----------------------------------------------------------
+
+# For AMD GPU (remove the '#' from the line below)
+# onnxruntime-directml
+
+# For NVIDIA GPU (remove the '#' from the line below)
+# onnxruntime-gpu
+
+# For CPU-only (remove the '#' from the line below)
+# onnxruntime
+# -----------------------------------------------------------
+
+modele in folderul models
